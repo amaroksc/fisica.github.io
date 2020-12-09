@@ -1,7 +1,7 @@
 <?php
-$name=$_REQUEST['name'];
-$email=$_REQUEST['email'];
-$comment=$_REQUEST['comment'];
+$name=$_POST['name'];
+$email=$_POST['email'];
+$comment=$_POST['comment'];
 
 
 echo "<h2> Gracias por escribirnos $name <br>";
